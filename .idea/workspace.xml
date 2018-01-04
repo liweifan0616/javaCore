@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="588872e9-e6db-4737-a214-c85fce3a5323" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/lwf/javaCore/steam/Widget.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/lwf/steam/Stream.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/lwf/steam/Transaction$Type.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/lwf/steam/Transaction.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/lwf/steam/TransactionTest.class" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/lwf/package-info.java" afterPath="$PROJECT_DIR$/src/main/java/com/lwf/javaCore/package-info.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/lwf/steam/Stream.java" afterPath="$PROJECT_DIR$/src/main/java/com/lwf/javaCore/steam/Stream.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/lwf/steam/Transaction.java" afterPath="$PROJECT_DIR$/src/main/java/com/lwf/javaCore/steam/Transaction.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/lwf/steam/TransactionTest.java" afterPath="$PROJECT_DIR$/src/main/java/com/lwf/javaCore/steam/TransactionTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/StreamTest.class" afterPath="$PROJECT_DIR$/target/test-classes/StreamTest.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/StreamTest.java" afterPath="$PROJECT_DIR$/src/test/java/StreamTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -724,8 +713,16 @@
       <workItem from="1513856846997" duration="2098000" />
       <workItem from="1513906529020" duration="3866000" />
       <workItem from="1514972012738" duration="6932000" />
-      <workItem from="1515030998735" duration="722000" />
+      <workItem from="1515030998735" duration="1153000" />
     </task>
+    <task id="LOCAL-00001" summary="commit">
+      <created>1515035675933</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1515035675933</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -761,7 +758,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13618000" />
+    <option name="totallyTimeSpent" value="14049000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -811,6 +808,11 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="SHOW_UNVERSIONED_FILES_WHILE_COMMIT" value="false" />
+    <MESSAGE value="commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -918,6 +920,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
