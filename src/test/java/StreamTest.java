@@ -4,7 +4,7 @@
  */
 
 
-import com.lwf.steam.Stream;
+import com.lwf.javaCore.steam.Stream;
 import org.junit.Test;
 
 import java.util.Arrays;

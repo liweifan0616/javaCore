@@ -2,7 +2,7 @@
  * LY.com Inc.
  * Copyright (c) 2004-2017 All Rights Reserved.
  */
-package com.lwf.steam;
+package com.lwf.javaCore.steam;
 
 import java.util.Arrays;
 import java.util.List;

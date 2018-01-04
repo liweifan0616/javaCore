@@ -2,10 +2,9 @@
  * LY.com Inc.
  * Copyright (c) 2004-2018 All Rights Reserved.
  */
-package com.lwf.steam;
+package com.lwf.javaCore.steam;
 
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 import java.util.stream.Collectors;

@@ -2,7 +2,7 @@
  * LY.com Inc.
  * Copyright (c) 2004-2018 All Rights Reserved.
  */
-package com.lwf.steam;
+package com.lwf.javaCore.steam;
 
 /**
  * @author liweifan
