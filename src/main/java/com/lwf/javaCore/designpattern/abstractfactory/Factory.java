@@ -9,6 +9,7 @@ package com.lwf.javaCore.designpattern.abstractfactory;
  * @version $Id: Factory, v 0.1 2018/3/21 下午4:33 liweifan Exp $
  */
 public interface Factory {
+
     public ProductA createProductA();
 
     public ProductB createProductB();
