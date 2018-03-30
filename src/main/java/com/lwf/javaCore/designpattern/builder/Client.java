@@ -4,37 +4,14 @@
  */
 package com.lwf.javaCore.designpattern.builder;
 
-
 /**
  * @author liweifan
- * @version $Id: Client, v 0.1 2018/3/19 上午11:15 liweifan Exp $
+ * @version $Id: Client, v 0.1 2018/3/30 下午4:33 liweifan Exp $
  */
 public class Client {
-    public  static void main(String args[])
-
-    {
-        ActorBuilder ab; //针对抽象建造者编程
-
-        ab =  (ActorBuilder) XMLUtil.getBean(); //反射生成具体建造者对象
-
-//        ActorController ac = new  ActorController();
-
-        Actor actor;
-
-//        actor = ac.construct(ab); //通过指挥者创建完整的建造者对象
-        actor = ActorBuilder.construct(ab);
-
-        String  type = actor.getType();
-
-        System.out.println(type  + "的外观：");
-
-        System.out.println("性别：" + actor.getSex());
-
-        System.out.println("面容：" + actor.getFace());
-
-        System.out.println("服装：" + actor.getCostume());
-
-        System.out.println("发型：" + actor.getHairstyle());
-
+    public static void main(String[] args) {
+        ConcreteBuilder cBuilder = new ConcreteBuilder();
+        Director director = new Director(cBuilder);
+        Product product = director.construct();
     }
 }
