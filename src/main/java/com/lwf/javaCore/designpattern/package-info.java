@@ -1,1 +1,0 @@
-package com.lwf.javaCore.designpattern;
